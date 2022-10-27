@@ -1,0 +1,8 @@
+Hello world
+This is a test 
+done
+
+No. of lines=2
+No. of spaces=4
+No. of tabs=0
+No. of other characters=21

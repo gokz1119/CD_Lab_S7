@@ -1,0 +1,9 @@
+
+Enter a name to tested for identifier: num1 
+
+It is a identifier!
+
+
+Enter a name to tested for identifier: 123num
+
+Its not a identifier!

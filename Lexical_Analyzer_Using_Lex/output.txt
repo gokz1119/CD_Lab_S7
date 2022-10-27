@@ -1,0 +1,21 @@
+
+#include<stdio.h> is a preprocessor directive
+
+        void is a keyword 
+FUNCTION 
+        main(
+        )
+
+
+ BLOCK BEGINS
+
+        int is a keyword 
+ num1 IDENTIFIER, 
+ num2 IDENTIFIER, 
+ num3 IDENTIFIER;
+
+ num3 IDENTIFIER 
+         = is an ASSIGNMENT OPERATOR 
+ num1 IDENTIFIER + 
+ num2 IDENTIFIER;
+BLOCK ENDS 

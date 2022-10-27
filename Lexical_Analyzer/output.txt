@@ -1,0 +1,11 @@
+void is keyword
+main is identifier
+int is keyword
+num1 is identifier
+num2 is identifier
+num3 is identifier
+num3 is identifier
+= is operator
+num1 is identifier
++ is operator
+num2 is identifier
