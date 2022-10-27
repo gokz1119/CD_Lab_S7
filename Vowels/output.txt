@@ -1,0 +1,3 @@
+Enter the string of vowels and consonants: Hello World
+ Number of vowels are: 3
+Number of consonants are: 7
