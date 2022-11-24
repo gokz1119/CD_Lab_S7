@@ -1,0 +1,22 @@
+Enter the number of productions: 8
+Enter the productions: 
+E=TR
+R=+TR
+R=e
+T=FY
+Y=*FY
+Y=e
+F=(E)
+F=i
+Firsts:
+E : (i
+F : (i
+R : +e
+T : (i
+Y : *e
+Follows:
+E : $)
+F : *+$)
+R : $)
+T : +$)
+Y : +$)

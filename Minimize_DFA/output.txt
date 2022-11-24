@@ -1,0 +1,25 @@
+Enter the number of alphabets: 2
+Enter the alphabets: 0 1
+Enter the number of states: 5
+Enter the start state: 0
+Enter the number of final states: 1
+Enter the final state(s): 4
+Enter no of transition: 10
+Enter Transition in the form –> state alphabet next_state
+0 0 1
+0 1 2
+1 0 1
+1 1 3
+2 0 1
+2 1 2
+3 0 1
+3 1 4
+4 0 1
+4 1 2
+
+States in minimized DFA
+----------------------------
+{q4 }
+{q3 }
+{q2 q0 }
+{q1 }

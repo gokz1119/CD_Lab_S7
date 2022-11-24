@@ -1,0 +1,31 @@
+Enter input:
+i-(i+i)
+Stack           Input           Action
+$               i-(i+i)$                SHIFT
+$i              -(i+i)$         REDUCE
+$S              -(i+i)$         SHIFT
+$S-             (i+i)$          SHIFT
+$S-(            i+i)$           SHIFT
+$S-(i           +i)$            REDUCE
+$S-(S           +i)$            SHIFT
+$S-(S+          i)$             SHIFT
+$S-(S+i         )$              REDUCE
+$S-(S+S         )$              REDUCE
+$S-(S+          )$              SHIFT
+$S-(S)          $               REDUCE
+$S-S            $               REDUCE
+Accepted.
+
+Enter input:
+i+i*i
+Stack           Input           Action
+$               i+i*i$          SHIFT
+$i              +i*i$           REDUCE
+$S              +i*i$           SHIFT
+$S+             i*i$            SHIFT
+$S+i            *i$             REDUCE
+$S+S            *i$             REDUCE
+$S+             *i$             SHIFT
+$S*S            i$              SHIFT
+$S*i            $               REDUCE
+Rejected.

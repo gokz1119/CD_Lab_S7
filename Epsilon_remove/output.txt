@@ -1,0 +1,39 @@
+Enter the number of alphabets: 4
+
+NOTE: Use letter e as epsilon
+NOTE: e must be last character, if it is present
+
+Enter the alphabets: a b c e
+Enter the number of states: 3
+Enter the start state: 1
+Enter the number of final states: 1
+Enter the final state(s): 3
+
+Enter no of transition: 5
+
+NOTE: Transition is in the form--> qno alphabet qno
+NOTE: States number must be greater than zero
+
+Enter the transitions:
+1 a 1
+1 e 2
+2 b 2
+2 e 3
+3 c 3
+
+Equivalent NFA without epsilon
+-----------------------------------
+Start state: {q1,q2,q3,}
+Alphabets: a b c e 
+States : {q1,q2,q3,}    {q2,q3,}        {q3,}
+The Transitions are:
+{q1,q2,q3,}     a       {q1,q2,q3,}
+{q1,q2,q3,}     b       {q2,q3,}
+{q1,q2,q3,}     c       {q3,}
+{q2,q3,}        a       {}
+{q2,q3,}        b       {q2,q3,}
+{q2,q3,}        c       {q3,}
+{q3,}   a       {}
+{q3,}   b       {}
+{q3,}   c       {q3,}
+Final states: {q1,q2,q3,}       {q2,q3,}        {q3,}

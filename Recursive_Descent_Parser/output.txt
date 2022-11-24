@@ -1,0 +1,7 @@
+Enter input:
+i+j+k
+Input has been rejected.
+
+Enter input:
+i=j=k
+Input has been rejected.
