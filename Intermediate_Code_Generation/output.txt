@@ -1,0 +1,7 @@
+Enter expression: q=a+b-c/d*2
+Oprtr   Destn   Op1     Op2
+/       Z       c       d
+*       Y       Z       2
++       X       a       b
+-       W       X       Y
+=       V       q       W

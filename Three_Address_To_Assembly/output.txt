@@ -1,0 +1,26 @@
+
+Enter the set of intermediate code (terminated by exit) :
+a=a*b
+c=f*h
+g=a*h
+f=Q+w
+t=q-j
+exit
+
+ Target code generation
+************************
+        MOV a,R0
+        MUL b,R0
+        MOV R0,a
+        MOV f,R1
+        MUL h,R1
+        MOV R1,c
+        MOV a,R2
+        MUL h,R2
+        MOV R2,g
+        MOV Q,R3
+        ADD w,R3
+        MOV R3,f
+        MOV q,R4
+        SUB j,R4
+        MOV R4,t%
